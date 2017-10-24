@@ -1,0 +1,53 @@
+.notice-container{
+    margin-bottom: 40px;
+}
+
+.notice-box {
+    padding-top: 30px;
+}
+
+.notice-failure {
+    border-top: 4px solid #ff7674;
+}
+
+.notice-failure .rp-box {
+    background: #fff1f1;
+}
+
+.notice-failure .rp-title {
+    color: #ff7674;
+}
+
+.notice-success {
+    border-top: 4px solid #69cd8e;
+}
+
+.notice-success .rp-box {
+    background: #c5f3e5;
+}
+
+.notice-success .rp-title {
+    color: #69cd8e;
+}
+
+.notice {
+    padding: 20px 20px 0;
+    background: #fff;
+}
+
+.notice .rp-box {
+    position: relative;
+    height: auto;
+    padding: 50px 0 50px 200px;
+}
+
+
+.notice .rp-title {
+    font: 700 24px/48px "Microsoft Yahei";
+}
+
+.notice .rp-tip {
+    margin-top: 10px;
+    margin-left: 20px;
+    font: 700 14px/24px "Microsoft Yahei";
+}

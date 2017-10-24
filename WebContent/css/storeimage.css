@@ -1,0 +1,140 @@
+a, a:hover {
+    color: #d8450b;
+}
+i {
+    margin-right: 3px;
+}
+p {
+    margin-bottom: 20px;
+}
+blockquote {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    border-left: 5px solid #999;
+}
+blockquote.pull-right {
+    border-right: 5px solid #999;
+}
+.gallery-title {
+    margin-bottom: 15px;
+}
+.gallery-item {
+    padding: 1px 1px 1px 1px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.gallery-item img {
+    width: 100%;
+    clear: both;
+    display: block;
+    margin: auto;
+    /*	background:#f8f8f8;*/
+}
+.gallery-hover-6col, .gallery-hover-4col, .gallery-hover-3col, .gallery-hover-4col-cir {
+    display: none;
+    background: url();
+    position: absolute;
+    z-index: 10;
+}
+.gallery-hover-4col-cir {
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+}
+.project-details {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #f8f8f8;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px dotted #a9a9a9;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.project-details a {
+    float: right;
+    font-size: 12px;
+    font-style: normal;
+    text-shadow: none;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.project-details {
+    color: #333333;
+}
+.project-details a {
+    color: #6f6f6f;
+}
+.project-details a:hover {
+    color: #d8450b;
+    text-decoration: none;
+}
+.project-info {
+    margin: 0px 0px 40px 0px;
+}
+.project-info li {
+    list-style: none;
+    border-bottom: 1px dashed #a9a9a9;
+    ;
+    padding: 10px;
+}
+.project-info li h6 {
+    display: inline;
+    margin-right: 5px;
+}
+.gallery-icons {
+    z-index: 9;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 89px;
+    height: 42px;
+    display: block;
+}
+.gallery-post-grid {
+    margin: 0px;
+}
+.gallery-post-grid li {
+    list-style: none;
+    float: left;
+    margin-bottom: 30px;
+}
+.gallery-cats {
+    margin: 0px 0px 20px 0px;
+}
+.gallery-cats li {
+    list-style: none;
+    float: left;
+    padding: 0px 10px;
+    border-left: 1px dotted #a9a9a9;
+}
+.gallery-cats li:first-child {
+    border-left: 0px;
+}
+.spanimage {
+    padding: 1px 1px 1px 1px;
+    overflow: hidden;
+    width: 22%;
+    float: left;
+    height: 210px;
+    margin-left: 20px;
+    border: 1px dashed #dadada;
+}
+.lineimage {
+    line-height: 170px;
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.lineimage img {
+    max-width: 100%;
+    max-height: 100%;
+}

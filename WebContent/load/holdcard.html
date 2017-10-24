@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+
+    <link rel="stylesheet" href="../css/jquery.validation.css">
+    <link href="/css/webuploader.css" rel="stylesheet" type="text/css">
+    <link href="/css/uploadartistfile.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+    	var timestamp = parent.document.getElementById('timestamp').value;
+	    var BASE_HTTP ='/puckart/image/upload.action?t=202&timestamp='+timestamp;
+        var BASE_LABEL =  '点击上传手持身份证照片';
+        var BASE_FILE_NUM_LIMIT = 1;
+    </script>
+	<script src="/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <script src="/js/webuploader.js" type="text/javascript"></script>
+    <script src="/js/uploadpic.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+
+        <div>
+
+                <div class="page-container">
+                    <div id="uploader">
+                        <div class="queueList">
+                            <div class="placeholder">
+                                <div id="filePicker"></div>
+                                <p>或者直接拖拽图片到虚线框内</p>
+                            </div>
+                        </div>
+                        <div class="statusBar" style="display: none;">
+                            <div class="progress">
+                                <span class="text">0%</span> <span class="percentage"></span>
+                            </div>
+                            <div class="info"></div>
+                            <div class="btns">
+                                <div id="filePicker2"></div>
+                                <div class="uploadBtn">开始上传</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+</body>
+</html>

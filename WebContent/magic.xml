@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean name="/address/create.action" class="com.control.address.CreateAddressController"></bean>
+    <bean name="/address/query.action" class="com.control.address.QueryAllAddressController"></bean>
+    <bean name="/address/query_c.action" class="com.control.address.QueryCommonController"></bean>
+    <bean name="/address/common.action" class="com.control.address.CommonAddressController"></bean>
+    <bean name="/address/un_common.action" class="com.control.address.UnCommomAddressController"></bean>
+    <bean name="/address/delete.action" class="com.control.address.DelAddressController"></bean>
+    <bean name="/address/update.action" class="com.control.address.UpdateAddressController"></bean>
+    
+    <bean name="/category/query.action" class="com.control.category.QueryCategoryController"></bean>
+    
+    <bean name="/production/create.action" class="com.control.production.CreateProductionController"></bean>
+    <bean name="/production/query.action" class="com.control.production.QueryProductionByIDController"></bean>
+    <bean name="/production/querybycategory.action" class="com.control.production.QueryProductionByCategoryController"></bean>
+    <bean name="/production/finished.action" class="com.control.production.FinishedProductionController"></bean>
+    <bean name="/production/queryall.action" class="com.control.production.QueryAllProductionController"></bean>
+    
+    <bean name="/cart/add.action" class="com.control.cart.AddToCartController"></bean>
+    <bean name="/cart/choose.action" class="com.control.cart.ChooseProductionFromCartController"></bean>
+    <bean name="/cart/unchoose.action" class="com.control.cart.UnChooseProductionFromCartController"></bean>
+    <bean name="/cart/increase.action" class="com.control.cart.IncreaseProductionController"></bean>
+    <bean name="/cart/decrease.action" class="com.control.cart.DecreaseProductionController"></bean>
+    <bean name="/cart/query.action" class="com.control.cart.QueryCartController"></bean>
+    <bean name="/cart/delete.action" class="com.control.cart.DeleteFromCartController"></bean>
+    <bean name="/cart/update_num.action" class="com.control.cart.UpdateProductionCartNumController"></bean>
+    
+    <bean name="/sale/create.action" class="com.control.sale.CreateSaleController"></bean>
+    
+    <bean name="/order/immediateyly_order.action" class="com.control.order.CreateOrderImmediatelyController"></bean>
+    <bean name="/order/create_order.action" class="com.control.order.CreateOrderController"></bean>
+    <bean name="/order/cancle.action" class="com.control.order.CancleOrderController"></bean>
+    <bean name="/order/pay.action" class="com.control.order.PayOrderController"></bean>
+    <bean name="/order/query_all.action" class="com.control.order.QueryAllOrderController"></bean>
+    <bean name="/order/query_cancle.action" class="com.control.order.QueryCancledOrderController"></bean>
+    <bean name="/order/query_finished.action" class="com.control.order.QueryFinishedOrderController"></bean>
+    <bean name="/order/query_payed.action" class="com.control.order.QueryPayedOrderController"></bean>
+    <bean name="/order/query_prepay.action" class="com.control.order.QueryPrePayOrderController"></bean>
+    <bean name="/order/notify.action" class="com.control.order.NotifyOrderController"></bean>
+    <bean name="/order/querybyid.action" class="com.control.order.QueryOrderByIDController"></bean>
+    <bean name="/order/querybyuuid.action" class="com.control.order.QueryOrderByUUIDController"></bean>
+    
+    <bean name="/store/login.action" class="com.control.store.StoreLoginController"></bean>
+    <bean name="/store/querypic.action" class="com.control.store.QueryStorePicController"></bean>
+    <bean name="/store/querydetail.action" class="com.control.store.QueryStroreDetailController"></bean>
+    
+    <bean name="/zhaoshang/create.action" class="com.control.zhaoshang.CreateZhaoShangControler"></bean>
+    
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="200000000000" />
+	</bean>	
+</beans>

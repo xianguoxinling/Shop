@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<title>puckart | 一切为艺术而生</title>
+<link href="/css/mainstyle.css" rel="stylesheet" type="text/css" />
+<link href="/css/megamenu.css" rel="stylesheet" type="text/css" />
+<link href="/css/jstarbox.css" rel="stylesheet" type="text/css" />
+<link href="/css/jstarbox.css" rel="stylesheet" type="text/css" />
+<link href="/css/shop.css" rel="stylesheet" type="text/css" />
+<link href="/js/pagination/css/pagination.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="top-header">
+			<div class="wrap">
+				<div class="top-header-right">
+					<ul>
+						<li id="login"></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="mid-header">
+			<div class="wrap">
+				<div class="mid-grid-right">
+					<form action="/puckart/search.action" method="post">
+						<input type="text" name="keyword" id="keyword"
+							placeholder="点这里，搜一搜" />
+					</form>
+				</div>
+				<div class="mid-grid-left">
+					<a class="logo" href="/index.html"><span> </span></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="shop-header">
+			<div class="shop-header-wrap">
+				<div class="shop-info">
+					<div class="shop-field">
+						<div class="logo">
+							<a href="#none">###PkShopName###</a>
+						</div>
+					</div>
+
+					<div class="shop-field">
+						<div class="desc">
+							<em></em> <a href="#none">店铺介绍</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="shop-title">
+			<div class="shop-title-wrap">
+				<div class="shop-logo">
+					<div class="logo">
+						 ###PkShopLogo###<em>###PkShopName###</em>
+					</div>
+				</div>
+				<div class="banner" style="width: 980px; overflow: hidden;"></div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+
+		<div class="wrap">
+
+			<input type="hidden" id="shopId" value="###PkShopId###">
+			
+			<div class="shop-cond-tab">
+				<div class="shop-cond">
+					<a class="cond current" href="#none" orderby="0">默认</a>
+					<a class="cond" href="#none" orderby="1"><em></em>价格</a>
+					<a class="cond" href="#none" orderby="2"><em></em>上架时间</a>
+				</div>
+			</div>
+			<div class="content-center product-box">				
+
+				<div class="product-grids">					
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="clear"></div>
+				<div class="paginationBar">
+					<div class="pages">
+				        <div id="Pagination"></div>
+				        <div class="searchPage">
+				          <span class="page-sum">共<strong class="allPage">1</strong>页</span>
+				          <span class="page-go">跳转<input type="text">页</span>
+				          <a href="javascript:;" class="page-btn">GO</a>
+				        </div>
+				    </div>
+				</div>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div id="footer"></div>
+	<div class="clear"></div>
+
+	<script type="text/javascript" src="/js/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="/js/cookies.js"></script>
+	<script type="text/javascript" src="/js/move-top.js"></script>
+	<script type="text/javascript" src="/js/easing.js"></script>
+	<script type="text/javascript" src="/js/baseload.js"></script>
+	<script type="text/javascript" src="/js/classify.js"></script>
+	<script type="text/javascript" src="/js/jstarbox.js"></script>
+	<script type="text/javascript" src="/js/pagination/jquery.pagination.js"></script>
+	<script type="text/javascript" src="/js/searchShop.js"></script>
+	
+</body>
+
+</html>

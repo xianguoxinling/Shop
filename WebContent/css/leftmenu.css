@@ -1,0 +1,29 @@
+
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+
+img{border:none;vertical-align:middle;}
+
+
+html{overflow-y:scroll;}
+ul,ol{list-style-type:none;}
+h3{font-size:14px;}
+
+
+
+
+
+
+
+/*全局样式结束*/
+
+
+#side_left_menu{width:45px; height:2000px; float:left; position:fixed; top:30%;}
+#side_left_menu .side_list{width:100%;height:auto; }
+#side_left_menu .side_list li{width:43px; text-align:center;margin:0 auto;height:35px;margin-bottom:5px;box-shadow:2px 2px 4px rgba(0, 0, 0, 0.2);-webkit-transition:0.3s all ease;-moz-transition:0.3s all ease;-ms-transition:0.3s all ease;-o-transition:0.3s all ease;transition:0.3s all ease;overflow:hidden;position:relative; border-right:3px solid #d0d0d0;}
+#side_left_menu .side_list li:hover{background: #bfbfbf;box-shadow:2px 2px 4px rgba(0, 0, 0, 0.4);border-right:3px solid #fff;}
+#side_left_menu .side_text h2,#side_left_menu .side_text a{font-family:"Microsoft YaHei";color:#333;text-shadow:1px 1px 2px #999;font-weight:normal;-webkit-transition:0.3s all ease;-moz-transition:0.3s all ease;-ms-transition:0.3s all ease;-o-transition:0.3s all ease; line-height: 40px; padding: 0px; margin: 0px; text-align: center; float: none;}
+#side_left_menu .side_text h3,#side_left_menu .side_text a{font-family:"Microsoft YaHei",Verdana;font-size:13px;color:#666;font-weight:normal;-webkit-transition:0.3s all ease;-moz-transition:0.3s all ease;-ms-transition:0.3s all ease;-o-transition:0.3s all ease;}
+#side_left_menu .side_list li:hover h2,#side_left_menu .side_list li:hover  a{color:#FFF;font-size:14px;text-shadow:1px 2px 4px #333;}
+#side_left_menu .side_list li:hover .side_text h3{color:#FFF;font-size:18px;}
+#side_left_menu .side_list li:hover .icon{color:#F90;font-size:50px;}
+#side_left_menu .side_list li:hover .side_text{-webkit-animation-name:shake;-moz-animation-name:shake;}

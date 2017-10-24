@@ -1,0 +1,186 @@
+.shop-header {
+    height: 30px;
+    width: 100%;
+    background: #fafafa;
+    position: relative;
+    z-index: 5;
+    zoom: 1;
+    font-size: 12px;
+}
+
+.shop-header .shop-header-wrap {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.shop-info {
+    height: 30px;
+    float: right;
+    white-space: nowrap;
+}
+
+.shop-header .shop-field {
+    float: left;
+}
+
+.shop-header .logo, .shop-header .desc {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.shop-header .desc em {
+    width: 10px;
+    height: 10px;
+    background: url(/images/arrow-left.png);
+    _background-image: none;
+    margin-right: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.shop-header .logo a, .shop-header .desc a {
+    color: #333333;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.shop-header .desc a:hover {
+    color: #863177;
+}
+
+.shop-header a, .shop-header span, .shop-header em, .shop-header img {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.shop-title {
+    height: 110px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    zoom: 1;
+    font-size: 12px;
+}
+
+.shop-title .shop-title-wrap {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.shop-logo {
+	padding: 10px 0;
+	height: 60px;
+}
+
+.shop-logo a, .shop-logo em, .shop-logo img {
+	display: inline-block;
+	*dispaly: inline;
+	zoom: 1;
+	vertical-align: top;
+}
+
+.shop-logo .logo em {
+	font-size: 36px;
+	line-height: 36px;
+	margin: 15px 0 0 10px;
+}
+
+.content{
+	padding-bottom: 1px;
+    padding-top: 0;
+}
+
+.shop-cond-tab{
+	margin-bottom: 10px;
+}
+
+.shop-cond {
+    overflow: hidden;
+    padding: 10px 10px 0 10px;
+    border-bottom: solid 1px #cecece;
+    _height: 100%;
+}
+
+.shop-cond a, .shop-cond .current {
+    padding: 4px 15px;
+    text-align: center;
+    display: block;
+    border: solid 1px #cecece;
+    border-bottom: 0;
+    color: #333;
+    float: left;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top, #ffffff, #f6f6f6);
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#f6f6f6));
+    background: -o-linear-gradient(top, #ffffff, #f6f6f6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.shop-cond a:hover, .shop-cond .current {
+    color: #fff;
+    border: solid 1px #c60001;
+    border-bottom: 0;
+    background: #be0000;
+    background: -moz-linear-gradient(top, #e00000, #be0000);
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#e00000), to(#be0000));
+    background: -o-linear-gradient(top, #e00000, #be0000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e00000', endColorstr='#be0000');
+}
+
+.shop-cond .down em {
+    background: url(/images/ar-down.gif);
+    display: inline-block;
+    zoom: 1;
+    height: 11px;
+    margin-right: 5px;
+    width: 9px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.shop-cond .up em {
+    background: url(/images/ar-up.gif);
+    display: inline-block;
+    zoom: 1;
+    height: 11px;
+    margin-right: 5px;
+    width: 9px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.empty-container{
+	height: 150px;
+	padding: 10px 50px;
+}
+
+.empty-container .empty-msg{
+	text-align: center;
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+
+.shop-wrapper{
+	height: 460px;
+}
+
+.shop-form{
+	border: 1px solid #f0f0f0;
+    margin: 0 auto;
+    padding: 16px;
+}

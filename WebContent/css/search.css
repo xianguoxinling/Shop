@@ -1,0 +1,18 @@
+.empty-container{
+	height: 250px;
+	padding: 10px 50px;
+}
+.empty-container .empty-msg{
+	text-align: center;
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+.paginationBar{
+	padding: 0 50px;
+}
+.paginationBar .pages{
+	float:right；
+}

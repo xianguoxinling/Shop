@@ -1,0 +1,60 @@
+
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/index.html">首页</a>
+		</div>
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-collapse-1">
+			
+			<ul class="nav navbar-nav">
+<!-- 				<li class="dropdown"><a class="dropdown-toggle" -->
+<!-- 					data-toggle="dropdown" href="#">店铺管理 <span class="caret"></span></a> -->
+<!-- 					<ul class="dropdown-menu"> -->
+<!-- 						<li><a href="/puckart/shop/myShop.action" target="_blank">我的店铺</a></li> -->
+<!-- 						<li class="divider"> -->
+<!-- 						<li><a href="/puckart/shop/shopSetting.action">店铺设置</a></li> -->
+<!-- 					</ul></li> -->
+			
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">商品管理 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/shop/store/addproduct.jsp">添加商品</a></li>
+						<li class="divider">
+						<li><a href="/puckart/store/selling_product.action">编辑商品</a></li>
+						<li class="divider">
+						<li><a href="/puckart/store/seachUncertifyProduct.action">删除商品</a></li>
+					</ul></li>
+					
+				<li class="dropdown"><a class="dropdown-toggle"
+					data-toggle="dropdown" href="#">订单管理 <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/puckart/store/seller_orders.action?t=s">查询新的订单</a></li>
+						<li class="divider">
+						<li><a href="/puckart/store/seller_orders.action?t=h">查询历史订单</a></li>
+						<li class="divider">
+						<li><a href="/puckart/store/reserve.action">查询预订订单</a></li>
+					</ul></li>
+					
+<!-- 				<li class="dropdown"><a class="dropdown-toggle" -->
+<!-- 					data-toggle="dropdown" href="#">艺术家认证<span class="caret"></span></a> -->
+<!-- 					<ul class="dropdown-menu"> -->
+<!-- 						<li><a href="/puckart/store/certartist.action">基本信息认证</a></li> -->
+<!-- 						<li class="divider"> -->
+<!-- 						<li><a href="/puckart/store/upldArtistfile.action">证明文件上传</a></li> -->
+<!-- 						<li class="divider"> -->
+<!-- 						<li><a href="/puckart/store/searchArtist.action">认证进度查询</a></li> -->
+<!-- 					</ul></li> -->
+
+
+				<li><a id="mibew-agent-button" 
+            		href="http://kefu.puckart.com/mibew/index.php/chat?locale=en" target="_blank"
+    				onclick="Mibew.Objects.ChatPopups['puckart'].open();return false;">联系客服</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<!-- 					<li><a href="#">Link</a></li> -->
+			</ul>
+		</div>
+	</div>
+</nav>

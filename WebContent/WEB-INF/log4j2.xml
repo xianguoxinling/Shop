@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status=debug 可以查看log4j的装配过程 -->
+<configuration status="debug" monitorInterval="1800">
+    <properties>
+        <property name="LOG_HOME">/home/tomcat/log/${sys:tomcat.instance.name}</property>
+        <property name="HISTORY_HOME_MAGIC">${LOG_HOME}/history/product</property>
+
+    </properties>
+    <appenders>
+        
+        <!-- MagicLog -->
+        <RollingRandomAccessFile
+                name="AuthLog"
+                fileName="${LOG_HOME}/auth.log"
+                filePattern="${HISTORY_HOME_MAGIC}/auth-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="[%date{yyyy-MM-dd HH:mm:ss.SSS}] [%level] [%thread][%file:%line] - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <!-- 
+                	filePattern="${HISTORY_HOME_MAGIC}/magic-%d{yyyy-MM-dd}-%i.log"
+                	<SizeBasedTriggeringPolicy size="100MB"/>
+                 -->
+            </Policies>
+        </RollingRandomAccessFile>
+
+    </appenders>
+    <loggers>
+
+	    <!-- AuthLog logger -->
+ 		<logger name="com" level="INFO" additivity="false">  
+	        <appender-ref ref="AuthLog" />
+	    </logger>
+        
+		<logger name="control" level="INFO" additivity="false">
+            <appender-ref ref="AuthLog" />
+        </logger>
+        
+        <logger name="third" level="INFO" additivity="false">
+            <appender-ref ref="AuthLog" />
+        </logger>
+
+        <root level="DEBUG" includeLocation="true">
+            <appender-ref ref="AuthLog" />
+        </root>
+    </loggers>
+</configuration>
